@@ -1,4 +1,4 @@
-🎬 Movie Land
+##🎬 Movie Land
 
 Movie Land is a simple and responsive movie search app built using React and the OMDb API. Users can search for movies by title and browse through a list of search results with dynamic rendering and a smooth UI.
 
@@ -50,16 +50,20 @@ The current key used is for testing: e4c08518
 You can get your own free API key by registering on the OMDb website.
 
 📂 Folder Structure
+
 src/
 ├── App.js
 ├── App.css
 ├── search.svg
 ├── MovieCard.js
 └── index.js
+
 📱 Responsive Design
+
 Movie Land is designed to be fully responsive across all screen sizes using modern CSS techniques and layout practices.
 
 
 📜 License
+
 This project is for educational/demo purposes only.
 Movie data provided by the OMDb API.
