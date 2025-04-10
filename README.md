@@ -59,14 +59,6 @@ src/
 📱 Responsive Design
 Movie Land is designed to be fully responsive across all screen sizes using modern CSS techniques and layout practices.
 
-💡 Future Improvements
-✅ Pagination for search results
-
-🌟 Movie details on click (description, cast, etc.)
-
-📽️ Filter by year
-
-🧠 Debounced search to reduce API calls
 
 📜 License
 This project is for educational/demo purposes only.
