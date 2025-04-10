@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+🎬 Movie Land
+Movie Land is a simple and responsive movie search app built using React and the OMDb API. Users can search for movies by title and browse through a list of search results with dynamic rendering and a smooth UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+🔍 Search for any movie using the OMDb API
 
-## Available Scripts
+🎥 Dynamic and real-time search result rendering
 
-In the project directory, you can run:
+🧾 Displays movie posters, titles, and release years
 
-### `npm start`
+📦 Built with React Hooks (useState, useEffect)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📱 Fully responsive design — works on desktop and mobile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 Clean, modern UI with easy-to-navigate layout
 
-### `npm test`
+🖼️ Demo
+![movieland app](https://github.com/user-attachments/assets/37b8bfd6-ce1a-4b46-b02f-42f834516630)
+![searching for spiderman ](https://github.com/user-attachments/assets/8b48b9d4-cc37-478f-9c5b-8ba08e4096e6)
+![the Dark knight movie](https://github.com/user-attachments/assets/511b99e4-1ccf-4b78-9ba3-63c22d67de24)
+![The matrix](https://github.com/user-attachments/assets/04c0462d-f2cb-4e0e-93fc-3784dfe830d7)
+![filtred by year of production](https://github.com/user-attachments/assets/05dfa4a3-1df3-4f04-83b6-15aeb826a6dd)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+🛠️ Tech Stack
+React (Functional Components & Hooks)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSS3 for styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+OMDb API for fetching movie data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/Hiamedja/movie-land.git
+cd movie-land
+2. Install dependencies
+npm install
+3. Run the app
+npm start
+The app will open on http://localhost:3000.
 
-### `npm run eject`
+🔑 API
+This app uses the OMDb API.
+An example API call:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+http://www.omdbapi.com/?apikey=YOUR_API_KEY&s=Batman
+The current key used is for testing: e4c08518
+You can get your own free API key by registering on the OMDb website.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📂 Folder Structure
+src/
+├── App.js
+├── App.css
+├── search.svg
+├── MovieCard.js
+└── index.js
+📱 Responsive Design
+Movie Land is designed to be fully responsive across all screen sizes using modern CSS techniques and layout practices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💡 Future Improvements
+✅ Pagination for search results
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🌟 Movie details on click (description, cast, etc.)
 
-## Learn More
+📽️ Filter by year
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧠 Debounced search to reduce API calls
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📜 License
+This project is for educational/demo purposes only.
+Movie data provided by the OMDb API.
