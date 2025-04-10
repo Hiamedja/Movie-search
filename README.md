@@ -1,7 +1,9 @@
 🎬 Movie Land
+
 Movie Land is a simple and responsive movie search app built using React and the OMDb API. Users can search for movies by title and browse through a list of search results with dynamic rendering and a smooth UI.
 
 🚀 Features
+
 🔍 Search for any movie using the OMDb API
 
 🎥 Dynamic and real-time search result rendering
